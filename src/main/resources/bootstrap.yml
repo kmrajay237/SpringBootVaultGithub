@@ -1,0 +1,12 @@
+spring.cloud.vault:
+  kv:
+    enabled: true
+    backend: secret
+    profile-separator: '/'
+    default-context: gs-vault-config
+    application-name: gs-vault-config
+  host: localhost
+  port: 8200
+  scheme: http
+  authentication: TOKEN
+  #token: s.XJBwETCKKpXXbK3GTujIIhNL
